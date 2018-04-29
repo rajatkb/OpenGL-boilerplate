@@ -1,0 +1,1 @@
+g++ main.cpp -o test -I "libraries\GLEW\include" -I "libraries\GLFW\include" -I "libraries\GLM\glm" -L "libraries\GLEW\lib\Release\Win32" -L "libraries\GLFW\lib-mingw" -lglfw3 -lglew32 -lopengl32
